@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.dark-mode,
+.dark-mode * {
+    transition: 0.5s;
+}
+
+.dark-mode { 
+    background-color: black;
+}
+
+.dark-mode h1 {
+    color:white
+}
+
+.dark-mode p {
+    color:white
+}
+
+#svbutton{
+    background-image: url(bilder/sverigeflaggan.gif);
+    background-size: cover;
+    float: right;
+    width: 80px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+#enbutton{
+    background-image: url(bilder/unionjack.png);
+    background-size: cover;
+    float: right;
+    width: 83px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    margin-right: 5px;
+}
