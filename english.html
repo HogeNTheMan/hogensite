@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogensite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <button id="kamouflage" onclick="kamouflage()" title=":3"></button>
+    <script>
+        function kamouflage(){
+            window.location.replace("kamouflage.html")
+        }
+    </script>
+    <button id="encolourbutton" onclick="changebg()">Dark mode / Light mode</button>
+    <script>
+        var isDark = true;
+        function changebg(){
+            isDark = !isDark;
+            if (isDark){
+                document.body.classList.add("dark-mode");
+            }
+            else{
+                document.body.classList.remove("dark-mode");
+            }
+        }
+    </script>
+    <div>
+        <h1>Ändra språk:</h1>
+        <button id="svbutton" title="Ändra Språk" onclick="swedish()"></button>
+        <script>
+            function swedish(){
+                window.location.replace("index.html");
+            }
+        </script>
+    </div>
+    <br><br><br>
+    <div id="maindiv">
+        <p id="velkommen">Welcome. Here you can download my projects that I have created, and maybe some other things if I feel like uploading them. All downloads are free, but the ownerships of the projects always belong to me.<br>-HogeN</p>
+        <br>
+        <h1>Downloads</h1>
+        <div>
+            <a href="filer/vattengrej.blend" class="download" download>Vattengrej.blend</a>
+        </div>
+    </div>
+</body>
+</html>

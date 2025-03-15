@@ -1,0 +1,169 @@
+/* Default: Large devices such as laptops (greater than 1280) */
+@media only screen and (max-width: 1280px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices such as tablets (1024px or lesser) */
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Small devices such as phones (768px or lesser) */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* Extra-small devices such as small phones (less than 640px) */
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 32px;
+    }
+}
+
+html{
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+}
+
+.dark-mode .download{
+    color: whitesmoke;
+}
+
+.dark-mode{
+    background-color: hsl(0, 0%, 5%);
+}
+
+.dark-mode p{
+    color: whitesmoke;
+}
+
+.dark-mode h1{
+    color: whitesmoke;
+}
+
+.dark-mode #enbutton{
+    box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.5);
+}
+
+.dark-mode #enbutton:hover{
+    box-shadow: 4px 4px 8px rgba(255, 255, 255, 1);
+}
+
+#enbutton{
+    background-image: url(bilder/unionjack.png);
+    background-size: cover;
+    width: 5vw;
+    height: 3vw;
+
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: black;
+}
+
+.dark-mode #svbutton{
+    box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.5);
+}
+
+.dark-mode #svbutton:hover{
+    box-shadow: 4px 4px 8px rgba(255, 255, 255, 1);
+}
+
+#svbutton{
+    background-image: url(bilder/sverigeflaggan.gif);
+    background-size: cover;
+    width: 5vw;
+    height: 3.125vw;
+
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: black;
+}
+
+#enbutton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 1);
+}
+
+#colourbutton{
+    width: 10svh;
+    height: 5svh;
+}
+
+#encolourbutton{
+    width: 5vw;
+    height: 2.5vw;
+    font-size: 0.9rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+#velkommen{
+    text-align: center;
+}
+
+#maindiv{
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kamouflage{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    float: right;
+    border: none;
+}
+.dark-mode #kamouflage{
+    background-color: hsl(0, 0%, 5%);
+}
+#kamouflage:hover{
+    cursor: pointer;
+}
+
+#returkamouflage{
+    width: 10vw;
+    height: 5vw;
+    background-color: black;
+    color: white;
+    float: right;
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: red;
+}
+
+#returkamouflage:hover{
+    cursor: pointer;
+}
